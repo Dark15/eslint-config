@@ -1,0 +1,6 @@
+{
+  "extends": "@dark15",
+  "plugins": [
+    "dark15"
+  ]
+}

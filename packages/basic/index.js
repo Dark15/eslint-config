@@ -35,7 +35,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    'antfu',
+    'dark15',
     'no-only-tests',
   ],
   settings: {
@@ -210,7 +210,7 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'no-constant-condition': 'warn',
     'no-debugger': 'error',
-    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
     'no-cond-assign': ['error', 'always'],
     'func-call-spacing': ['off', 'never'],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
@@ -340,9 +340,9 @@ module.exports = {
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
 
-    // antfu
-    'antfu/if-newline': 'error',
-    'antfu/import-dedupe': 'error',
-    // 'antfu/prefer-inline-type-import': 'error',
+    // dark15
+    'dark15/if-newline': 'error',
+    'dark15/import-dedupe': 'error',
+    // 'dark15/prefer-inline-type-import': 'error',
   },
 }

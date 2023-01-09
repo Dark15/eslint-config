@@ -3,7 +3,7 @@ const { isPackageExists } = require('local-pkg')
 const TS = isPackageExists('typescript')
 
 if (!TS)
-  console.warn('[@antfu/eslint-config] TypeScript is not installed, fallback to JS only.')
+  console.warn('[@dark15/eslint-config] TypeScript is not installed, fallback to JS only.')
 
 module.exports = {
   overrides: [
@@ -25,8 +25,8 @@ module.exports = {
   extends: [
     'plugin:vue/vue3-recommended',
     TS
-      ? '@antfu/eslint-config-ts'
-      : '@antfu/eslint-config-basic',
+      ? '@dark15/eslint-config-ts'
+      : '@dark15/eslint-config-basic',
   ],
   rules: {
     'vue/max-attributes-per-line': 'off',

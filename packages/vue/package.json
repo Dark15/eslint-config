@@ -1,8 +1,8 @@
 {
-  "name": "@antfu/eslint-config-vue",
-  "version": "0.34.0",
+  "name": "@dark15/eslint-config-vue",
+  "version": "1.0.0",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "Dark15 <starry@starryio.com> (https://github.com/Dark15/)",
   "license": "MIT",
   "keywords": [
     "eslint-config"
@@ -15,8 +15,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config-basic": "workspace:*",
-    "@antfu/eslint-config-ts": "workspace:*",
+    "@dark15/eslint-config-basic": "workspace:*",
+    "@dark15/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.8.0",
     "local-pkg": "^0.4.2"
   },
