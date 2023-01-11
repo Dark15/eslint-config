@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-dark15",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "homepage": "https://github.com/Dark15/eslint-config",
   "main": "./dist/index.cjs",
